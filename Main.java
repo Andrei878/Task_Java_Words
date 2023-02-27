@@ -11,7 +11,7 @@ public class Main {
 
             countwords stats = new countwords(args[0]);
 
-            File file = new File("C://temp//result.txt");
+            File file = new File("result.txt");
             if (file.createNewFile()){
                 System.out.println("File is created!");
             }
